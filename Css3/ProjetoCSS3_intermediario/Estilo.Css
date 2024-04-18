@@ -1,0 +1,14 @@
+/* Espaçamento interno*/
+.conteudo {
+    border: 1px solid red;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+
+/* espaçamento externo
+margim-top: 20px;
+*/
+
