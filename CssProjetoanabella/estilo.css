@@ -1,0 +1,59 @@
+body{
+    background-image: url(imagens/fundo.png);
+}
+
+#principal {
+    width: 70%;
+    font-style: italic;
+    color: black;
+}
+
+.cordefundo {
+    background-color: rgb(209, 209, 167);
+}
+
+.corletras {
+    background-color: rgb(119, 119, 41, );
+    color: rgb(71, 69, 69);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#corfundo {
+    background-color: rgb(247, 237, 224);
+    background-size: 50% auto;
+    color: rgba(119, 119, 41, 0.925);
+    font-weight: 400;
+}
+
+.corparagrafo {
+    color: black;
+    font-weight: 550;
+}
+
+#corhome {
+    background-color: rgb(119, 119, 41, );
+}
+
+#border1 {
+    border-color: beige;
+    border-style:groove;
+    border-width: 15px;
+    width: 58%;
+
+}
+
+#border2 {
+    border-color: rgb(231, 231, 205) black;
+    border-style:inset;
+    border-width: 15px;
+    width: 58%;
+}
+
+#border3 {
+    border-color: rgb(229, 229, 173) rgba(131, 127, 79, 0.699);
+    border-style:ridge;
+    border-width: 15px;
+    width: 58%;
+}
+
