@@ -1,0 +1,41 @@
+p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+h3 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    color: yellow;
+
+}
+
+
+/* Titulo formatacao */
+
+.Tecblog {
+    background-color: rgb(251, 255, 0);
+    border: 1px solid black;
+    width: 100%;
+    height: 180px;
+    padding-left:50%;
+    position: fixed;
+    
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.sobreposicao{
+    z-index: 2;
+
+}
