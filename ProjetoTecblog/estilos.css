@@ -20,22 +20,148 @@ h2 {
 
 /* Titulo formatacao */
 
-.Tecblog {
-    background-color: rgb(251, 255, 0);
-    border: 1px solid black;
+.background {
+    background-color: rgb(250, 194, 40);
     width: 100%;
-    height: 180px;
-    padding-left:50%;
-    position: fixed;
-    
+    height: 120px;
+    float: left;
+    text-align:center;
+    padding-top: 120px;
     
 }
+
+.Tecblog {
+    text-align: center;
+    position: absolute ;
+    left: 200px;
+    top: 80px;
+    right: 420px;
+    z-index: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    color:rgb(94, 81, 81) ;
+}
+
+.Tecblog2 {
+    text-align: center;
+    position: absolute ;
+    left: 200px;
+    top: 80px;
+    right: 200px;
+    z-index: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
 
 .clear {
     clear: both;
 }
 
 .sobreposicao{
-    z-index: 2;
+    position:absolute;
+    top: 200px;
+    left: 540px;
+    z-index: 1;
+    text-decoration: none;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 20px;
+    
+    
+
+    
 
 }
+.sobreposicao2{
+    position:absolute;
+    top: 200px;
+    left: 620px;
+    z-index: 1;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    
+
+
+
+    
+
+}
+
+.sobreposicao3{
+    position:absolute;
+    top: 200px;
+    left: 690px;
+    z-index: 1;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    
+
+
+    
+
+}
+
+.sobreposicao4{
+    position:absolute;
+    top: 200px;
+    left: 790px;
+    z-index: 1;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 20px;
+    
+
+    
+
+}
+.sobreposicao5{
+    position:absolute;
+    top: 200px;
+    left: 910px;
+    z-index: 1;
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 20px;
+    
+
+    
+
+}
+
+/* Background */
+
+#background {
+    background-color: rgb(179, 171, 171);
+}
+
+
+
+
+/* noticias */
+
+
+.noticia {
+    border: solid 1px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 180px;
+    margin: 7px;
+    float: left;
+    z-index: 1;
+
+}
+
+.h3cor {
+    background-color:rgb(144, 153, 160);
+}
+
+.lermais {
+    color: yellow;
+}
+
