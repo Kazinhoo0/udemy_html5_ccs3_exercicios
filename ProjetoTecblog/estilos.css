@@ -1,9 +1,12 @@
-p {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-
+body {
+    background-color: rgba(235, 231, 231, 0.788);
 }
 
+
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 h3 {
@@ -13,20 +16,86 @@ h3 {
 }
 
 h2 {
-    color: yellow;
+    color: rgb(236, 157, 11);
+
+}
+
+h3 {
+    color: rgb(80, 76, 76);
+    background-color: rgba(141, 148, 156, 0.589);
+}
+
+
+
+#areaprincipal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#noticialateral {
+    width: 240px;
+    float: right;
+    margin: 10px;
 
 }
 
 
+#areadepostagens {
+    width: 660px;
+    float: left;
+    
+
+}
+
+#rodapé {
+    background:rgb(237, 242, 245);
+    clear: both;
+    padding: 15px;
+    text-align: center;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.conteudo-lateral {
+    
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.categorias-laterais {
+    background: white;
+}
 /* Titulo formatacao */
 
 .background {
+    border: solid 1px black;
     background-color: rgb(250, 194, 40);
     width: 100%;
     height: 120px;
     float: left;
     text-align:center;
     padding-top: 120px;
+    
+}
+
+.datapostagem {
+    font-size: 0.8em;;
+    border-bottom: 1px solid rgb(236, 224, 224);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#seletores-cabecalho {
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -134,10 +203,24 @@ h2 {
 
 }
 
+
+/* div principal */
+#principal {
+    background-color: rgb(179, 171, 171);
+    border: 1px solid red;
+    width: 1450px;
+    height: 1450px;
+    z-index: 0;
+
+}
+
 /* Background */
 
 #background {
     background-color: rgb(179, 171, 171);
+    padding-left: 10px;
+    
+
 }
 
 
@@ -152,16 +235,13 @@ h2 {
     padding: 10px;
     width: 180px;
     margin: 7px;
-    float: left;
     z-index: 1;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px
 
 }
 
-.h3cor {
-    background-color:rgb(144, 153, 160);
-}
 
-.lermais {
-    color: yellow;
-}
 

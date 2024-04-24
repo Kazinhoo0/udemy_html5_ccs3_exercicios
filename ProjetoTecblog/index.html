@@ -10,49 +10,122 @@
     <style>
         a {
             text-decoration: none;
+        }
+        
+        a:hover,  a:visited {
+            color: rgb(255, 196, 0);
+            background-color: rgb(255, 255, 255);
+            text-decoration: underline ;
+            
+        }
+        
+        #seletores-cabecalho a:hover {
             color: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            text-decoration: none;
+            
         }
-
-        h3 {
-            background-color: rgb(181, 186, 192);
+        
+        #seletores-cabecalho a:link {
+            color: rgb(255, 255, 255); 
         }
+        
+        #seletores-cabecalho a:visited {
+            color: bisque;
+        }
+        
+         p {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
     </style>
 
 </head>
 <body>
     <div>
+        <div class="background"></div>
         <div class="Tecblog">TEC</div>
         <div class="Tecblog2">BLOG</div>
-        <div class="background"></div>
-        <div class="sobreposicao">
-            <a href="">Home</a>
-        </div>
-        <div class="sobreposicao2">
-            <a href="">Jogos</a>
-        </div>
-        <div class="sobreposicao3">
-            <a href="">Celulares</a>
-        </div>
-        <div class="sobreposicao4">
-            <a href="">Informática</a>
-        </div>
-        <div class="sobreposicao5">
-            <a href="">Eletrônicos</a>
-        </div>
-    </div>
-    <div id = "background">
-        <div class="noticia">
-            <h3>Postagens Recentes</h3>
-            <p>amet nunc pretium, laoreet curt tellus ac ipsum mattis convallis.</p>
-            <a  class = "lermais"  href="">ler mais</a>
-            <hr>
-            <p>amet nunc pretium, laoreet curt tellus ac ipsum mattis convallis.</p></p>
-            <a  class = "lermais"  href="">ler mais</a>
-            
+        <div id = "seletores-cabecalho">
+            <div class="sobreposicao">
+                <a href="">Home</a>
+            </div>
+            <div class="sobreposicao2">
+                <a href="Jogos.html">Jogos</a>
+            </div>
+            <div class="sobreposicao3">
+                <a href="Celulares.html">Celulares</a>
+            </div>
+            <div class="sobreposicao4">
+                <a href="Informática.html">Informática</a>
+            </div>
+            <div class="sobreposicao5">
+                <a href="Eletrônicos.html">Eletrônicos</a>
+            </div>
         </div>
     </div>
-
-
     
+    <div id= "areaprincipal">
+        <div id = "areadepostagens">
+            
+            <!-- abertura postagem -->
+            <div class="postagem">
+                <h2>Titulo da postagem 1 </h2>
+                <span class="datapostagem">postado 20 marco 2024</span>
+                <img width = "620px" src="imagens/imagem2.jpg" alt="">
+                <p class="paragrafo">
+                    Morbi ornare ligula in sem ullamcorper porta. Fusce blandit enim id fringilla posuere. Nam pellentesque eu urna vitae vestibulum. Donec aliquam a ligula non consequat. Aenean sed nibh porttitor, viverra est quis, hendrerit lorem. Ut elementum, urna sit amet venenatis mollis, tellus enim convallis nunc, id porta sem turpis eget lacus. Integer at sapien auctor, consectetur dui ac, hendrerit sem. Cras congue tempus iaculis. Pellentesque egestas blandit urna eu fermentum. Nunc fermentum, nulla a tempor ullamcorper, felis est convallis magna, non euismod orci nulla non neque. Etiam congue consectetur pellentesque. Phasellus mauris nisl, ultricies vitae ipsum ac, ullamcorper congue mauris. Nam at lorem velit. In luctus vel turpis sit amet vestibulum. Aenean ut viverra arcu.
+
+                </p>
+                <a href="">Leia mais</a>
+
+            </div>
+            <div class="postagem">
+                <h2>Titulo da postagem 2 </h2>
+                <span class="datapostagem">postado 10 marco 2024</span>
+                <img width = "620px" src="imagens/imagem1.jpg" alt="">
+                <p class="paragrafo">
+                    Morbi ornare ligula in sem ullamcorper porta. Fusce blandit enim id fringilla posuere. Nam pellentesque eu urna vitae vestibulum. Donec aliquam a ligula non consequat. Aenean sed nibh porttitor, viverra est quis, hendrerit lorem. Ut elementum, urna sit amet venenatis mollis, tellus enim convallis nunc, id porta sem turpis eget lacus. Integer at sapien auctor, consectetur dui ac, hendrerit sem. Cras congue tempus iaculis. Pellentesque egestas blandit urna eu fermentum. Nunc fermentum, nulla a tempor ullamcorper, felis est convallis magna, non euismod orci nulla non neque. Etiam congue consectetur pellentesque. Phasellus mauris nisl, ultricies vitae ipsum ac, ullamcorper congue mauris. Nam at lorem velit. In luctus vel turpis sit amet vestibulum. Aenean ut viverra arcu.
+
+                </p>
+                <a href="">Leia mais</a>
+
+            </div>
+            <!-- fechamento postagem -->
+        </div>
+                
+
+        <div id = "noticialateral">
+            <div class= "conteudo-lateral"> 
+                <h3>Postagens Recentes</h3>
+                <p>amet nunc pretium, laoreet curt tellus ac ipsum mattis convallis.</p>
+                <a  class = "lermais"  href="">ler mais</a>
+                <hr>
+                <p>amet nunc pretium, laoreet curt tellus ac ipsum mattis convallis.</p></p>
+                <a  class = "lermais"  href="">ler mais</a>  
+            </div> 
+            
+            <div class="clear"></div>        
+            
+            <div class="categorias-laterais">
+                <h3>Categorias</h3>
+                <a class = "lermais" href="">Jogos</a><br>
+                <a class = "lermais" href="">Celulares</a><br>
+                <a class = "lermais" href="">Informática</a><br>
+                <a class = "lermais" href="">Eletrônicos</a><br>
+            </div> 
+
+        </div>
+        <div id = "rodapé">Todos os direitos reservados</div>
+    </div>
+
+        
+
+
+
+
+
+
+       
 </body>
 </html>
