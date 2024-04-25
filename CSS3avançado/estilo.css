@@ -1,0 +1,40 @@
+/* seletore Universal */
+* {
+    border: 0px solid red;
+
+}
+
+
+
+
+/* seletor de texto 
+h1 {
+    ;
+}*/
+
+/* seletor de classe (poderá usar a classe apenas dentro dos p) */
+p.verde {
+    color: green;
+}
+
+/* seletor filho */
+li>a {
+    text-decoration: none;
+}
+
+/* seletor de descendente */
+div a {
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Seletor de irmão adjacente 
+h1+p {
+    color: pink;
+}*/
+
+/* Seletor de irmão Geral */
+div~p {
+    color: rgb(253, 0, 0)
+}
